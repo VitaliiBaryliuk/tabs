@@ -3,20 +3,20 @@
   margin: 10px;
 }
 
-.navigation__list{
+.navigation__list {
   margin-bottom: 8px;
 }
 
-.navigation__link{
+.navigation__link {
   text-decoration: none;
   padding: 10px;
   margin-bottom: 0px;
   border: 1px solid grey;
   border-bottom: 0;
-  background-color:white; 
+  background-color: white;
 }
 
-.navigation__link:focus{
+.navigation__link:focus {
   position: relative;
   top: 1px;
 }
@@ -29,5 +29,3 @@
 .invisible {
   display: none;
 }
-
-
