@@ -1,0 +1,24 @@
+.tabs__link {
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 0px;
+  border: 1px solid grey;
+  border-bottom: 0;
+  background-color: white;
+  font-size: 20px; }
+
+.tabs__link:focus {
+  background-color: #cdcccc;
+  position: relative;
+  top: 2px; }
+
+.tabs__wrapper {
+  padding: 10px 20px;
+  border-top: 1px solid grey;
+  font-size: 20px; }
+
+.tabs__navigation {
+  margin: 20px 0 9px 20px; }
+
+.hide {
+  display: none; }

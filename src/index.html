@@ -4,30 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="navigation">
-        <ul class="navigation__list">
-          <li id="link-home" class="navigation__li link-home">
-            <a class="navigation__link" href="#" data-link="home">Home</a>
-          </li>
-          <li class="navigation__li link-profile">
-            <a class="navigation__link" href="#" data-link="profile">Profile</a>
-          </li>
-          <li class="navigation__li link-contact">
-            <a class="navigation__link" href="#" data-link="contact">Contact</a>
-          </li>
-        </ul>
+    <div class="tabs">
+      <nav class="tabs__navigation">
+        <a class="tabs__link" href="#" data-link="home">Home</a>
+        <a class="tabs__link" href="#" data-link="profile">Profile</a>
+        <a class="tabs__link" href="#" data-link="contact">Contact</a>
       </nav>
-      <section class="page-wrapper">
-        <div class="home"><p>textHome</p></div>
-        <div class="profile invisible"><p>textProfile</p></div>
-        <div class="contact invisible"><p>textContact</p></div>
+      <section class="tabs__wrapper">
+        <div class="" data-tabcontent="home"><p>textHome</p></div>
+        <div class="hide" data-tabcontent="profile"><p>textProfile</p></div>
+        <div class="hide" data-tabcontent="contact"><p>textContact</p></div>
       </section>
     </div>
-    <script src="js/index.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
