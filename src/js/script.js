@@ -1,6 +1,7 @@
 (function () {
   const tabLink = document.querySelector('.tabs__navigation');
   const tabWraps = document.querySelectorAll('div[data-tabcontent]');
+  document.querySelector('a[data-link="home"]').focus();
 
   tabLink.addEventListener('click', (event) => {
     event.preventDefault();
