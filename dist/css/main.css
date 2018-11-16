@@ -7,11 +7,6 @@
   background-color: white;
   font-size: 20px; }
 
-.tabs__link:focus {
-  background-color: #cdcccc;
-  position: relative;
-  top: 2px; }
-
 .tabs__wrapper {
   padding: 10px 20px;
   border-top: 1px solid grey;
@@ -23,3 +18,8 @@
 
 .hide {
   display: none; }
+
+.show {
+  background-color: #cdcccc;
+  position: relative;
+  top: 2px; }
