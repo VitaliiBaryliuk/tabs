@@ -1,2 +1,2 @@
 # tabs
-https://vitaliybaryliuk.github.io/tabs/dist
+https://vitaliybaryliuk.github.io/tabs/dist/index.html
